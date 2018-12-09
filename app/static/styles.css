@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #EFEFEF;
+  --secondary-color: #A9A9A9;
+  --tertiary-color:  #CAEBF2;
+  --bold-color: #FF3B3F;
+}
+
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.tertiary-color {
+  background-color: var(--tertiary-color);
+}
+
+.bold-color {
+  color: var(--bold-color);
+}
+
+a {
+  color: var(--bold-color);
+}
+
+a:hover {
+  background-color: var(--tertiary-color);
+}
